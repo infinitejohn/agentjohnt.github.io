@@ -1,0 +1,58 @@
+.header-bottom .container  {
+    display: inline-block;
+    
+    margin: 0 0.5rem;
+
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+.header-bottom .container .logo {
+    float: inline-start;
+}
+
+.header-bottom .container .navbad {
+    float: inline-end;
+}
+
+.flex {
+    display: flex;
+}
+
+.left{
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.copy .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.copy .container a {
+    padding: 0px;
+    text-align: center;
+}
+
+.copy .container span {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us .container .row .text-part {
+    font-size: 70px;
+}
+
+footer .container .vee {
+    display: flex;
+    justify-content: space-between;
+}
+footer hr {
+    height: 1px;
+    background-color: aquamarine;
+    border: none;
+}
