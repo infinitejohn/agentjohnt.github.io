@@ -188,8 +188,8 @@ body {
       font-weight: 600; }
 
 .btn-success {
-  background-color: #51be78;
-  border-color: #51be78; }
+  background-color: #05162e;
+  border-color: aquamarine; }
   .btn-success:hover {
     background-color: #51be78 !important;
     border-color: #51be78 !important; }
@@ -580,7 +580,7 @@ header {
     color: #FFF; }
 
 .doctor-message .inner-lay {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #05162e;
   padding: 50px;
   color: #FFF; }
 
@@ -643,8 +643,11 @@ header {
 .footer {
   padding: 50px;
   padding-bottom: 50px;
-  background-color: #1e2436;
-  color: #FFF; }
+  background-color: #05162e;
+  color: #FFF;
+  margin-bottom: 5px;
+}
+  
 
 @media screen and (max-width: 940px) {
   .footer {
@@ -687,7 +690,7 @@ header {
 
 .copy {
   padding: 20px;
-  background: #1a202f;
+  background: #05162e;
   color: #FFF; }
 
 .copy a {
