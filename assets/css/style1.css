@@ -167,7 +167,8 @@ hr {
     width: 50%;
     background-color: aquamarine;
     border: none;
-    margin: 0px;
+    text-align: right;
+    margin-right: 0;
 }
 
 
