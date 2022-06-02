@@ -141,11 +141,19 @@ hr {
 .profile {
     background-color: #05162e;
     padding: 5px 20px 0px 20px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     width: 60%;
     color: white;
     padding: 10px;
+    /* display: flex;
+    justify-content: left; */
+    height: auto;
+}
+
+.profile .dap {
+    padding: 10px;
+    
 }
 
 .profile h1 {
@@ -159,35 +167,47 @@ hr {
     width: 50%;
     background-color: aquamarine;
     border: none;
+    margin: 0px;
 }
 
 
 .profile .img {
     float: left;
-    max-width: 940px;
-    width: 100%;
+    width: 263px;
+    height: 290px;
+    object-fit: fill;
     padding: 5px;
-    border: 2px solid white;
+    margin: 10px;
+    border: 2px solid white;;
     
 }
 
 .profile1 {
     background-color: #05162e;
     padding: 5px 20px 0px 20px;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; */
     width: 60%;
     padding: 10px;
     color: white;
 }
 
+.profile1 .pad {
+    padding: 5px;
+}
+
 .profile1 .img{
-    float: left;
-    max-width: 940px;
-    width: 100%;
+    float: right;
+    width: 263px;
+    height: 290px;
+    object-fit: fill;
     padding: 5px;
     border: 2px solid white;
+}
+
+.profile1 img {
+    width: 100%;
 }
 
 .profile1 hr {
