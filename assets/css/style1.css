@@ -145,6 +145,7 @@ hr {
     justify-content: space-between;
     width: 60%;
     color: white;
+    padding: 10px;
 }
 
 .profile h1 {
@@ -163,9 +164,10 @@ hr {
 
 .profile .img {
     float: left;
-    height: 262px;
-    width: 293px;
+    max-width: 940px;
+    width: 100%;
     padding: 5px;
+    border: 2px solid white;
     
 }
 
@@ -182,9 +184,10 @@ hr {
 
 .profile1 .img{
     float: left;
-    height: 262px;
-    width: 293px;
+    max-width: 940px;
+    width: 100%;
     padding: 5px;
+    border: 2px solid white;
 }
 
 .profile1 hr {
